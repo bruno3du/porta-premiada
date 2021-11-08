@@ -2,7 +2,7 @@
 
 import styles from '../styles/Porta.module.css';
 import PortaModel from '../model/porta';
-import { FormEvent } from 'react';
+import React, { FormEvent } from 'react';
 import Presente from './Presente';
 
 interface PortaProps {

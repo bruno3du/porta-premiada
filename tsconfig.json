@@ -22,10 +22,11 @@
   "include": [
     "next-env.d.ts",
     "**/*.ts",
-    "**/*.tsx"
+    "**/*.tsx",
+    "pages/_app.js",
+    "pages/api/hello.js"
   ],
   "exclude": [
     "node_modules",
-    "next"
   ]
 }
