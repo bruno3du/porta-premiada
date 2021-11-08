@@ -10,7 +10,7 @@ interface PortaProps {
 	onChange: (novaPorta: PortaModel) => void;
 }
 
-const Porta = ({ porta, onChange }: PortaProps) => {
+function Porta({ porta, onChange }: PortaProps) {
 	const selecionada =
 		porta.selecionada && !porta.aberta ? styles.selecionada : '';
 
@@ -43,6 +43,6 @@ const Porta = ({ porta, onChange }: PortaProps) => {
 			<div className={styles.chao}></div>
 		</div>
 	);
-};
+}
 
 export default Porta;
